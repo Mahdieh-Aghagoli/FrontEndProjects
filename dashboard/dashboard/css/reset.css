@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+li {
+    text-decoration: none;
+}
+
+* {
+    outline: none;
+    margin: 0;
+}
+
+.margin1{
+    margin: 10px 15px;
+}
+
+
+li:hover{
+    color: blue;
+}

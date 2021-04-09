@@ -1,0 +1,244 @@
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/*header*/
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    padding: 0 10px;
+    height: 42px;
+    color: #b7b4b4;
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+}
+
+.top-header {
+    height: 48px;
+    max-height: 44px;
+}
+
+.top-header ul li a {
+    color: lightgrey;
+    font-size: 13px;
+}
+
+
+/*navigation*/
+.navigation {
+    position: fixed;
+    height: 50px;
+    max-height: 52px;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    /*background-color: #f5e9dd00;*/
+    z-index: 100;
+}
+
+.navigation li {
+    margin-top: 14PX;
+}
+
+.title_li {
+    margin-right: 600px;
+    font-family: OpenSansBold;
+    font-weight: 600;
+    letter-spacing: -.020em;
+    color: rgba(0,0,0,0.8);
+}
+
+.other_li {
+    padding-right: 2.3em;
+    text-align: center;
+    color: rgba(0,0,0,0.8);
+    font-size: small;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    background: #0071e3;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    min-width: 23px;
+    padding: 4px 11px;
+    border-radius: 12px;
+}
+
+/*main*/
+.section-one{
+    margin-top: 11em;
+}
+
+.div1-title{
+    font-size: 128px;
+    line-height: .78125;
+    font-weight: 600;
+    font-family: OpenSansBold;
+    letter-spacing: -.050em;
+}
+
+.div2{
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: OpenSansBold;
+    letter-spacing: -.050em;
+}
+
+.div3{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: -.030em;
+    margin: 2em 6em;
+}
+
+.div4-img1{
+    width: 257px;
+    height: 36px;
+    background-size: 257px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/writings/img1.png);
+    margin-top: 50px;
+    margin-bottom: 0;
+    position: relative;
+    left: 50%;
+    margin-left: -130px;
+}
+
+.div5-img2{
+    width: 1748px;
+    height: 982px;
+    background-size: 1748px 982px;
+    background-repeat: no-repeat;
+    background-image: url(../images/img1.jpg);
+    position: relative;
+    left: 50%;
+    margin-left: -851px;
+    margin-top: 30px;
+}
+
+.s2-d1{
+    font-family: OpenSansBold;
+    font-size: 50px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+}
+
+.gray-color{
+    color: #888;
+}
+
+.s2-d2{
+    font-size: 21px;
+    line-height: 1.38105;
+    font-weight: 400;
+    letter-spacing: .011em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width: 66.66667%;
+}
+
+.footer::before{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+    letter-spacing: normal;
+}
+
+.footer{
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    direction: ltr;
+    text-align: left;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    pointer-events: auto;
+}
+
+/*.footer::after{*/
+/*    box-sizing: content-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    pointer-events: auto;*/
+/*    letter-spacing: normal;*/
+/*}*/
+
+.sec1{
+    display: flex;
+    background-color: #f5f5f7;
+    /*height: 500px;*/
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #86868b;
+}
+
+
+
+.sec1-div1{
+    color: black;
+}
+
+.icons{
+    width: 100%;
+    height: 56px;
+    background-size: 100% 56px;
+    background-repeat: no-repeat;
+    font-family: OpenSansBold;
+
+}
+
+.under-icons-text{
+font-family: OpenSansBold;
+}
+.blue-text{
+    color: #0071e3;
+}
+
+.sec2{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #86868b;
+    padding-top: 15px;
+    border-bottom: 1px solid #86868b;
+}
